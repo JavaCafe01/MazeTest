@@ -1,0 +1,15 @@
+.body {
+  background-color: #25253a;
+}
+
+.html-embed {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 5%;
+  margin-right: 220px;
+  margin-bottom: 220px;
+  margin-left: 220px;
+  background-color: #25253a;
+}
