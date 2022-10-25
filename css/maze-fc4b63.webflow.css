@@ -18,7 +18,7 @@ a {
   background-color: #010102;
 }
 
-.section {
+.header_section {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -41,7 +41,7 @@ a {
   align-items: center;
 }
 
-.image {
+.banner {
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -64,11 +64,23 @@ a {
   border-bottom: 1px solid #e4ebf3;
 }
 
-.container {
+.social_container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   max-width: 940px;
   margin-right: auto;
   margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footer-form-two {
@@ -223,7 +235,7 @@ a {
   align-items: center;
 }
 
-.footer-social-link-three {
+.social_button {
   margin-left: 32px;
 }
 
@@ -278,30 +290,35 @@ a {
   color: #3a4554;
 }
 
-.image-2 {
+.insta_icon {
   color: #fff;
 }
 
-.heading {
+.title {
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
-  font-family: Comici, sans-serif;
+  font-family: Seiston, sans-serif;
   color: #fff;
   font-size: 40px;
 }
 
 .heading-2 {
   margin-bottom: 20px;
-  font-family: Comici, sans-serif;
+  font-family: Oswald, sans-serif;
   color: #fff;
   text-align: left;
 }
 
-.section-2 {
-  display: block;
-  margin-right: 500px;
+.about_section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0px;
   margin-bottom: 100px;
-  margin-left: 500px;
+  margin-left: 0px;
+  padding-right: 500px;
+  padding-left: 500px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -311,15 +328,15 @@ a {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .paragraph {
   margin-bottom: 20px;
-  font-family: Comici, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
 }
 
@@ -336,14 +353,17 @@ a {
 }
 
 .link {
+  font-family: Oswald, sans-serif;
   color: #9292c0;
 }
 
 .link-2 {
+  font-family: Oswald, sans-serif;
   color: #9292c0;
 }
 
 .link-3 {
+  font-family: Oswald, sans-serif;
   color: #9292c0;
 }
 
@@ -498,7 +518,7 @@ a {
   display: none;
 }
 
-.section-3 {
+.goodies_section {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -516,7 +536,7 @@ a {
 }
 
 @media screen and (max-width: 991px) {
-  .container {
+  .social_container {
     max-width: 728px;
   }
 
@@ -687,7 +707,7 @@ a {
 }
 
 @media screen and (max-width: 479px) {
-  .container {
+  .social_container {
     max-width: none;
   }
 
@@ -817,6 +837,13 @@ a {
   }
 }
 
+@font-face {
+  font-family: 'Seiston';
+  src: url('../fonts/seiston.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 @font-face {
   font-family: 'Comici';
   src: url('../fonts/comici.ttf') format('truetype');
