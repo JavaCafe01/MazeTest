@@ -572,7 +572,7 @@ a {
   position: static;
   display: block;
   overflow: hidden;
-  width: 100%;
+  width: auto;
   height: 100%;
   margin-left: 20px;
   -webkit-box-pack: center;
