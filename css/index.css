@@ -12,7 +12,7 @@ a {
   top: auto;
   right: 0%;
   bottom: 5%;
-  margin-right: 90px;
+  margin-right: 100px;
   margin-bottom: 0px;
   margin-left: 0px;
   padding-right: 0px;
@@ -314,7 +314,7 @@ a {
   margin-bottom: 20px;
   font-family: Oswald, sans-serif;
   color: #fff;
-  text-align: left;
+  text-align: center;
   font-size: 25px;
 }
 
@@ -920,8 +920,8 @@ a {
 }
 
 .container {
-    width: 35%;
-    height: 450px;
+    width: 25%;
+    height: 350px;
 }
 .iframe-class {
     width: 100%;
